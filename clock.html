@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title>最简单的react示例：时钟</title>
+	<!-- react库 -->
+	<script type="text/javascript" src="bower_components/react/react.min.js"></script>
+	<!-- moment，用于日期和时间 -->
+	<script type="text/javascript" src="bower_components/moment/moment.js"></script>
+</head>
+<body>
+	<div id="container"></div>
+	<script type="text/javascript">
+		var ClockWidget = React.createClass({
+			render: function() {
+				var now=moment();
+				return React.DOM.p(null,now.format('H:mm:ss'));
+			}
+		});
+
+		var AppFactory = React.createFactory(ClockWidget);
+
+		var start = new Date().getTime();
+		setInterval(function() {
+			React.render(
+			  AppFactory(),
+			  document.getElementById('container')
+			);
+		}, 50);
+	</script>
+</body>
+</html>

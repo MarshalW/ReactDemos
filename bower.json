@@ -1,0 +1,23 @@
+{
+  "name": "react-demo",
+  "version": "1.0.0",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "moment": "",
+    "react": ""
+  },
+  "authors": [
+    "Marshal <marshal.wu@qq.com>"
+  ],
+  "license": "MIT",
+  "homepage": "http://blog.shiqichan.com",
+  "private": true
+}
