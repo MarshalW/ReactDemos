@@ -5,14 +5,16 @@
 	<script type="text/javascript" src="bower_components/react/react.min.js"></script>
 	<!-- moment，用于日期和时间 -->
 	<script type="text/javascript" src="bower_components/moment/moment.js"></script>
+	<!-- 使用jsx -->
+	<script src="bower_components/react/JSXTransformer.js"></script>
 </head>
 <body>
 	<div id="container"></div>
-	<script type="text/javascript">
+	<script type="text/jsx">
 		var ClockWidget = React.createClass({
 			render: function() {
 				var now=moment();
-				return React.DOM.p(null,now.format('H:mm:ss'));
+				return <p>{now.format('H:mm:ss')}</p>
 			}
 		});
 
