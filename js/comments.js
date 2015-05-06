@@ -1,3 +1,7 @@
+// 测试browserify是否生效
+var generator=require('./generator');
+generator.generate();
+
 var CommentBox=React.createClass({
 	comments:[
 		{
