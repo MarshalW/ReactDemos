@@ -1,8 +1,9 @@
 // 测试flux和React是否能装上
 var React = require('react');
 var Dispatcher = require('flux').Dispatcher;
+var EventEmitter = require('events').EventEmitter;
 
-alert(Dispatcher);
+alert(EventEmitter);
 
 var CommentBox=React.createClass({
 	comments:[
