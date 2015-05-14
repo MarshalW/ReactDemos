@@ -1,6 +1,8 @@
-// 测试browserify是否生效
-var generator=require('./generator');
-generator.generate();
+// 测试flux和React是否能装上
+var React = require('react');
+var Dispatcher = require('flux').Dispatcher;
+
+alert(Dispatcher);
 
 var CommentBox=React.createClass({
 	comments:[
