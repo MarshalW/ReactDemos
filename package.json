@@ -1,0 +1,30 @@
+{
+  "name": "ReactDemo",
+  "version": "1.0.0",
+  "description": "React Demos",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-sourcemaps": "^1.5.2",
+    "reactify": "^1.1.0",
+    "browserify": "^10.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "react":"",
+    "flux":""
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarshalW/ReactDemos.git"
+  },
+  "author": "Marshal (marshal.wu@qq.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarshalW/ReactDemos/issues"
+  },
+  "homepage": "https://github.com/MarshalW/ReactDemos"
+}
